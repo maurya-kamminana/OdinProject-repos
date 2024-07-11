@@ -1,0 +1,67 @@
+/* Styles for the body element */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page-title-div{
+    color: black;
+    margin: 100;
+    padding: 0;
+    text-align: center;
+    /* Add a shadow */
+    text-shadow: 0.5px 0.5px #000000;
+    font-size:x-large;
+
+}
+
+.biryani-list-item , .pasta-list-item, .pizza-list-item{
+    list-style-type: none;
+}
+
+.biryani-list-item{
+    background-image: url(../images/shreyak-singh-0j4bisyPo3M-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pasta-list-item{
+    background-image: url(../images/ben-lei-flFd8L7_B3g-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pizza-list-item{
+    background-image: url(../images/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.biryani-item, .pasta-item, .pizza-item{
+    padding: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    text-align: center;
+    text-shadow: 2px 2px 10px #000000;  
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.biryani-anchor, .pasta-anchor, .pizza-anchor{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
