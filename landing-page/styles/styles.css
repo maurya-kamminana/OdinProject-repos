@@ -1,0 +1,207 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header styling */
+
+.header {
+    padding: 16px 256px;
+
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAFB;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.right-links a {
+    color: #c2c3c5;
+    font-weight: 100;
+}
+
+.right-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+
+/* Hero section styling */
+
+.hero {
+    padding: 64px 256px;
+    background-color: #1F2937;
+    color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p{
+    font-weight: 200;
+    color: rgb(192, 193, 194);
+}
+
+.hero-content button{
+    padding: 8px 8px;
+    background-color: #3882F6;
+    color: #F9FAFB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    flex: 0 1 auto;
+    width: 35%;
+}
+
+.hero-image {
+    flex: 0 1 auto;
+}
+.hero-image img{
+    max-width: 100%;
+}
+
+.pixabay-attr {
+    font-size: 6px;
+    color: #96989c;
+}
+
+/* Information section styling */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 16px 0;
+}
+
+.illustrations {
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.illustrations figure {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.illustrations div {
+    width: 90px;
+    height: 90px;
+    border: medium solid #3882F6;
+    border-radius: 15%;
+}
+
+.illustrations figcaption {
+    font-size: 12px;
+    font-weight: 300;
+    color: #414141;
+    width: 90px;
+}
+
+/* Quote styling */
+
+.quote {
+    padding: 64px 350px;
+    background-color: #c1c5c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote em {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2d2d2d;
+}
+
+.quote cite {
+    align-self: self-end;
+}
+
+
+/* sign-up styling */
+
+.sign-up {
+    margin: 64px 256px;
+    padding: 32px 128px;
+    color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.sign-up button{
+    padding: 8px 8px;
+    background-color: #3882F6;
+    color: #F9FAFB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    flex: auto;
+    max-width: 100px;
+    border: thin solid white;
+
+}
+
+
+/* Footer styling */
+
+.footer {
+    padding: 32px 0;
+    background-color: #1F2937;
+    color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
